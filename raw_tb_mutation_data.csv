@@ -232,7 +232,7 @@ Asp,His,Unknown,-4.533,Deleterious,141,0,1,0
 Leu,Arg,Intermediate 0.25,-3.4,Deleterious,142,0,1,1
 Tyr,Phe,Susceptible,1.033,Neutral,145,0,1,0
 Met,Leu,Susceptible,0.333,Neutral,146,0,1,0
-Met,Thr,Susceptible,-2.983,Deleterious,146,0,1,0
+Met,Thr,Resistant,-2.983,Deleterious,146,0,1,0
 Asn,His,Unknown,-0.729,Neutral,148,0,1,0
 Asn,Lys,Unknown,0.46,Neutral,148,0,1,0
 Asn,Tyr,Unknown,-1.698,Neutral,148,0,1,0

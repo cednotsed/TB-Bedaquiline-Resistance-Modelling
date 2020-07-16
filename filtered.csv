@@ -85,7 +85,7 @@
 "Leu","Arg","Resistant",-5.083,"Deleterious",136,0,1,0
 "Tyr","Phe","Susceptible",1.033,"Neutral",145,0,1,0
 "Met","Leu","Susceptible",0.333,"Neutral",146,0,1,0
-"Met","Thr","Susceptible",-2.983,"Deleterious",146,0,1,0
+"Met","Thr","Resistant",-2.983,"Deleterious",146,0,1,0
 "Leu","Pro","Resistant",-2.556,"Deleterious",154,0,1,0
 "Tyr","Asp","Susceptible",-3.517,"Deleterious",157,0,1,0
 "Tyr","His","Susceptible",-2,"Neutral",157,0,1,0
