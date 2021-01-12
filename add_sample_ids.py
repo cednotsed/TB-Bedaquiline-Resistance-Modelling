@@ -4,14 +4,14 @@ from pathlib import Path
 
 data = Path('~/git_repos/TB-Bedaquiline-Resistance-Modelling')
 
-df = pd.read_csv(data / 'mutations_with_scores.csv')
-df = df[['WT', 'position', 'Variant', 'Drug Resistance', 'PROVEAN score', 'effect', 'Predicted probability of resistance']]
+df = pd.read_csv(data / 'mutations_with_scores.120121.csv')
+df = df[['WT', 'position', 'Variant', 'Drug Resistance', 'PROVEAN score', 'effect', 'predicted_probability_of_resistance']]
 
 mutation = df.WT + df.position.astype('str') + df.Variant
 df.insert(loc=0, value=mutation, column='Mutation')
 
 # Sample IDs
-meta = pd.read_csv(data / 'rv0678_sample_ids_160720.csv')
+meta = pd.read_csv(data / 'rv0678_sample_ids_120121.csv')
 
 meta_expand = pd.DataFrame()
 
@@ -28,6 +28,6 @@ meta_expand.columns = ['Classification', 'Lineage', 'Mutation', 'Sample ID']
 meta_expand = meta_expand[['Mutation', 'Classification', 'Lineage', 'Sample ID']]
 
 df = df.merge(meta_expand, on='Mutation', how='left')
-df.to_csv(data / 'mutation_list.predictions.sampleIDs.csv', index=False, header=True)
+df.to_csv(data / 'mutation_list.predictions.sampleIDs.120121.csv', index=False, header=True)
 
 

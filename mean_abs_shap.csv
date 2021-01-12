@@ -1,0 +1,16 @@
+feature,mean(|SHAP|)
+position,10.11
+WT,8.56
+Mutant Hydrophobicity,7.39
+Charge Change,7.07
+WT MW,7.07
+dimerisation,6.45
+Mutant,6.41
+WT Hydrophobicity,5.91
+WT Property,5.38
+Mutant MW,4.61
+MW Change,3.12
+Mutant Property,2.25
+Hydrophobicity Change,1.77
+dna_binding,0.94
+ligand_binding,0.0

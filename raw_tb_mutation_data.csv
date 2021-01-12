@@ -151,7 +151,7 @@ Phe,Ser,Intermediate 0.25,-5.705,Deleterious,93,1,0,0
 Phe,Val,Intermediate 0.25,-4.805,Deleterious,93,1,0,0
 Arg,Gln,Resistant,-2.5,Deleterious,94,1,0,0
 Arg,Gly,Unknown,-2.633,Deleterious,96,1,0,0
-Arg,Trp,Unknown,-4.089,Deleterious,96,1,0,0
+Arg,Trp,Intermediate 0.25,-4.089,Deleterious,96,1,0,0
 Pro,Leu,Unknown,-5.617,Deleterious,97,1,0,0
 Pro,Leu,Unknown,-5.617,Deleterious,97,1,0,0
 Asn,Asp,Resistant,0.333,Neutral,98,0,0,0
